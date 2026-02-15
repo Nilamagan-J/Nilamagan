@@ -806,7 +806,15 @@ body.dark .education-card:hover {
               0 0 80px rgba(0, 200, 200, 0.15);
   transform: translateY(-6px);
 }
+/* ===== EDUCATION TITLE POSITION FIX ===== */
 
+.education-section .section-header {
+  margin-top: 30px;   /* pushes title block down */
+}
+
+.education-section .section-title {
+  margin-top: 20px;   /* lowers actual "Education" text */
+}
 /* ================= CONTACT ================= */
 
 .contact-section {
@@ -1063,6 +1071,7 @@ footer {
   }
 
 }
+
 
 
 
